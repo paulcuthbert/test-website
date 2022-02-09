@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(238, 240, 242);
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+header {
+    margin-top: -8px;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 22% 22% 70px 22% 22%;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    top: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:black;
+    background-color: black;
+    padding: 1%;
+    margin: none;
+    padding-bottom: 8px;
+    margin-top: 12 px;
+    font-weight: bold;
+    font-size: .8rem;
+    display: inline-block;
+    min-width: 24%;
+}
+
+section a {
+    padding: 8px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    width:100%;
+    bottom: 0%;
+    display: block;
+    left: auto;
+    right: auto;
+}
+
+
+hr {
+    width: 350px;
+    color: rgb(163, 163, 163);
+}
+
+.contact p {
+    text-align: center;
+    color: rgb(163, 163, 163);
+}
+
+h1 {
+    /* border: 4px solid rgba(255, 255, 255, 0.74);
+    border-radius: 40px; */
+    color:rgb(238, 240, 242);
+    padding-top: 30px;
+    padding-bottom: 8px;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.home {
+    letter-spacing: 0.15em;
+    word-spacing: 0.28em;
+}
+
+.learn-test {
+    display:flex;
+    direction: column;
+}
+
+.mini-lsb{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    height:120px;
+  }
+
+.mini-ls{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+  }
+
+#ls-page{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: none;
+
+  }
+
+.mini-ks{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 120px;
+  }
+
+#ks-page {
+    height: 280px;
+}
+
+header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: .7;
+}
+
+header img:hover {
+    opacity: 1;
+    animation-name: bounce;
+    animation-duration: 0.45s;
+    animation-timing-function: ease;
+}
+ 
+section a,
+.learn-ls a{
+    border: 4px solid black;
+    border-radius: 10px;
+    color:black;
+    margin: 8px auto;
+    font-weight: bold;
+    padding: 2%;
+    display: inline-block;
+    width: 30%;
+    min-width: 240px;
+}
+
+section a:hover {
+    color: rgb(238, 240, 242);
+    background-color: black;
+    border: 4px solid rgb(238, 240, 242);
+    animation-name: squeeze;
+    animation-duration: 0.4s;
+}
+
+p,
+li{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    text-align: left;
+    text-transform: none;
+}
+
+.learn {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+.learn a{
+    border: 4px solid black;
+    border-radius: 10px;
+    color:black;
+    margin: 8px auto;
+    font-weight: bold;
+    padding: 4%;
+    width: 30%;
+    min-width: 250px;
+}
+
+#all,
+.all {
+    color:black; 
+    background-color: rgba(125, 122, 188, .72); 
+    border: 2px solid black;
+    padding: 16px;
+    align-self: flex-start;
+}
+
+#all:hover{
+    background-color: rgba(125, 122, 188, 1); 
+    animation-name: squeeze;
+    animation-duration: 0.4s;
+}
+.all:hover {
+    background-color: rgba(125, 122, 188, 1); 
+}
+
+#LSB,
+.LSB {
+    background-color: rgba(255, 227, 71, 0.7);  
+    padding: 16px;
+    align-self: flex-start;
+}
+
+#LSB:hover{
+    background-color: rgba(255, 227, 71, 1); 
+    animation-name: squeeze;
+    animation-duration: 0.4s;
+}
+
+.LSB:hover {
+    background-color: rgba(255, 227, 71, 1); 
+}
+
+#solidworks a,
+#KS,
+.KS { 
+    background-color: rgba(239, 91, 91, 0.7);  
+    padding: 16px;
+    align-self: flex-start;
+}
+
+#solidworks a:hover,
+#KS:hover{ 
+    background-color: rgba(239, 91, 91, 1); 
+    animation-name: squeeze;
+    animation-duration: 0.4s;
+}
+
+.KS:hover { 
+    background-color: rgba(239, 91, 91, 1); 
+}
+
+#arduino a,
+#LS,
+.LS {
+    align-self: flex-start;
+    background-color: rgba(32, 163, 158, 0.7);
+    padding: 16px;
+}
+
+#arduino a:hover,
+#LS:hover {
+    background-color: rgba(32, 163, 158, 1);
+    animation-name: squeeze;
+    animation-duration: 0.4s;
+}
+
+.LS:hover {
+    background-color: rgba(32, 163, 158, 1);
+}
+
+#dpea a {
+    background-color: rgb(223, 104, 104);
+}
+
+#lightsculpture {
+    letter-spacing: 0.1em;
+}
+
+/* KEYFRAMES */
+
+@keyframes bounce {
+    20% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(0.96);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes squeeze {
+    29% {
+        transform: scale(1.06);
+    }
+    100% {
+        transform: scaleX(1);
+        transform: scaleY(1);
+    }
+}
+
+/* MEDIA SIZING */
+
+@media (max-width: 915px) {
+    header nav {
+        display: grid;
+        grid-template-columns: 43% 80px 43%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+    }
+    header a {
+        width: 100%;
+        padding: 8px;
+        align-self: center;
+        z-index: 1;
+    }
+    header img {
+        max-width: 100px;
+    }
+    .learn a{
+        padding: 1%;
+        min-width: 150px;
+        font-size: .8rem;
+    }
+    .all {
+        grid-area: 1/1/2/2;
+    }
+    .LSB {
+        grid-area: 1/3/2/4;
+    }
+    .logo {
+        grid-area: 1/2/3/3;
+        z-index: 0;
+    }
+    .LS {
+        grid-area: 2/1/3/2;
+    }
+    .KS {
+        grid-area: 2/3/3/4;
+    }
+
+    #LSB,
+    #KS,
+    #LS {
+        width: 90%;
+    }
+}
+
+
+
+
